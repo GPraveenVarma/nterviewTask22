@@ -21,8 +21,6 @@ public class datafinder {
         } else {
             return new ArrayList<>();
         }
-
-
     }
 
 
