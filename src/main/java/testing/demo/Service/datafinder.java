@@ -10,9 +10,7 @@ public class datafinder {
     public List<Employes> myEmps = new ArrayList<>();
 
 
-
-
-    public List<Employes> getData(String name) {
+    public List<Employes> getNewData(String name) {
         if (name == "test") {
             myEmps.add(new Employes(123, "praveen", "23"));
             myEmps.add(new Employes(124, "seetha", "23"));
@@ -21,7 +19,7 @@ public class datafinder {
         } else {
             return new ArrayList<>();
         }
-        
+
     }
 
 
