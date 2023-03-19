@@ -7,7 +7,10 @@ import java.util.List;
 
 public class datafinder {
     public List<Employes> myEmps = new ArrayList<>();
-
+    
+    public void testinggit()
+    {
+    }
 
     public List<Employes> getNewData(String name) {
         if (name == "test") {
