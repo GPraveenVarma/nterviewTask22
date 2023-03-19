@@ -4,12 +4,12 @@ import testing.demo.Entity.Employes;
 
 import java.util.ArrayList;
 import java.util.List;
-
 public class datafinder {
     public List<Employes> myEmps = new ArrayList<>();
     
     public void testinggit()
     {
+        System.out.println("test");
     }
 
     public List<Employes> getNewData(String name) {
