@@ -10,6 +10,7 @@ public class datafinder {
     
     public void testinggit()
     {
+        System.out.println("YOYO");
     }
 
     public List<Employes> getNewData(String name) {
